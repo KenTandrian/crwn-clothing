@@ -5235,6 +5235,10 @@ idb@^6.1.4:
   version "6.1.5"
   resolved "https://registry.yarnpkg.com/idb/-/idb-6.1.5.tgz#dbc53e7adf1ac7c59f9b2bf56e00b4ea4fce8c7b"
 
+idb@^7.0.1:
+  version "7.0.2"
+  resolved "https://registry.yarnpkg.com/idb/-/idb-7.0.2.tgz#7a067e20dd16539938e456814b7d714ba8db3892"
+
 identity-obj-proxy@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/identity-obj-proxy/-/identity-obj-proxy-3.0.0.tgz#94d2bda96084453ef36fbc5aaec37e0f79f1fc14"
@@ -9417,11 +9421,17 @@ workbox-background-sync@6.5.3, workbox-background-sync@^6.5.3:
     idb "^6.1.4"
     workbox-core "6.5.3"
 
-workbox-broadcast-update@6.5.3, workbox-broadcast-update@^6.5.3:
+workbox-broadcast-update@6.5.3:
   version "6.5.3"
   resolved "https://registry.yarnpkg.com/workbox-broadcast-update/-/workbox-broadcast-update-6.5.3.tgz#fc2ad79cf507e22950cda9baf1e9a0ccc43f31bc"
   dependencies:
     workbox-core "6.5.3"
+
+workbox-broadcast-update@^6.5.4:
+  version "6.5.4"
+  resolved "https://registry.yarnpkg.com/workbox-broadcast-update/-/workbox-broadcast-update-6.5.4.tgz#8441cff5417cd41f384ba7633ca960a7ffe40f66"
+  dependencies:
+    workbox-core "6.5.4"
 
 workbox-build@6.5.3:
   version "6.5.3"
@@ -9479,12 +9489,19 @@ workbox-core@6.5.4, workbox-core@^6.5.3:
   version "6.5.4"
   resolved "https://registry.yarnpkg.com/workbox-core/-/workbox-core-6.5.4.tgz#df48bf44cd58bb1d1726c49b883fb1dffa24c9ba"
 
-workbox-expiration@6.5.3, workbox-expiration@^6.5.3:
+workbox-expiration@6.5.3:
   version "6.5.3"
   resolved "https://registry.yarnpkg.com/workbox-expiration/-/workbox-expiration-6.5.3.tgz#efc0811f371a2ede1052b9de1c4f072b71d50503"
   dependencies:
     idb "^6.1.4"
     workbox-core "6.5.3"
+
+workbox-expiration@^6.5.4:
+  version "6.5.4"
+  resolved "https://registry.yarnpkg.com/workbox-expiration/-/workbox-expiration-6.5.4.tgz#501056f81e87e1d296c76570bb483ce5e29b4539"
+  dependencies:
+    idb "^7.0.1"
+    workbox-core "6.5.4"
 
 workbox-google-analytics@6.5.3, workbox-google-analytics@^6.5.3:
   version "6.5.3"
@@ -9495,11 +9512,17 @@ workbox-google-analytics@6.5.3, workbox-google-analytics@^6.5.3:
     workbox-routing "6.5.3"
     workbox-strategies "6.5.3"
 
-workbox-navigation-preload@6.5.3, workbox-navigation-preload@^6.5.3:
+workbox-navigation-preload@6.5.3:
   version "6.5.3"
   resolved "https://registry.yarnpkg.com/workbox-navigation-preload/-/workbox-navigation-preload-6.5.3.tgz#81b74f598b11aa07e2cf1c21af7a826a4f0f70b3"
   dependencies:
     workbox-core "6.5.3"
+
+workbox-navigation-preload@^6.5.4:
+  version "6.5.4"
+  resolved "https://registry.yarnpkg.com/workbox-navigation-preload/-/workbox-navigation-preload-6.5.4.tgz#ede56dd5f6fc9e860a7e45b2c1a8f87c1c793212"
+  dependencies:
+    workbox-core "6.5.4"
 
 workbox-precaching@6.5.3, workbox-precaching@^6.5.3:
   version "6.5.3"
@@ -9532,11 +9555,17 @@ workbox-recipes@6.5.3:
     workbox-routing "6.5.3"
     workbox-strategies "6.5.3"
 
-workbox-routing@6.5.3, workbox-routing@^6.5.3:
+workbox-routing@6.5.3:
   version "6.5.3"
   resolved "https://registry.yarnpkg.com/workbox-routing/-/workbox-routing-6.5.3.tgz#a0a699d8cc90b5692bd3df24679acbbda3913777"
   dependencies:
     workbox-core "6.5.3"
+
+workbox-routing@^6.5.4:
+  version "6.5.4"
+  resolved "https://registry.yarnpkg.com/workbox-routing/-/workbox-routing-6.5.4.tgz#6a7fbbd23f4ac801038d9a0298bc907ee26fe3da"
+  dependencies:
+    workbox-core "6.5.4"
 
 workbox-strategies@6.5.3, workbox-strategies@^6.5.3:
   version "6.5.3"
