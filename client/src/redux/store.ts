@@ -13,6 +13,7 @@ const sagaMiddleware = createSagaMiddleware();
 const middlewares: Middleware[] = [sagaMiddleware]; // we can still add another middlewares here
 
 if (process.env.NODE_ENV === 'development'){
+    // @ts-ignore
     middlewares.push(logger);
 }
 
