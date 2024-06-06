@@ -1,6 +1,6 @@
 {
   "name": "crwn-clothing-server",
-  "version": "1.9.28",
+  "version": "1.9.46",
   "packageManager": "yarn@1.22.22",
   "engines": {
     "node": "^18 || ^20"
