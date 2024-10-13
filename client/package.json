@@ -75,7 +75,7 @@
     "enzyme": "3.11.0",
     "enzyme-to-json": "3.6.2",
     "redux-mock-store": "1.5.4",
-    "rollup": "4.21.3",
+    "rollup": "4.24.0",
     "sass": "1.78.0",
     "typescript": "5.6.2",
     "vite": "5.4.5",
