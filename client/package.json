@@ -78,7 +78,7 @@
     "rollup": "4.27.4",
     "sass": "1.81.0",
     "typescript": "5.7.2",
-    "vite": "5.4.8",
+    "vite": "5.4.11",
     "vite-plugin-pwa": "0.20.5",
     "vite-plugin-svgr": "4.2.0"
   },
