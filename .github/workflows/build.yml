@@ -27,11 +27,8 @@ jobs:
         with:
           node-version: ${{ env.NODE_VERSION }}
 
-      - name: 🔧 Install Server Dependencies
-        run: yarn install --frozen-lockfile
-
       - name: 🔧 Install Client Dependencies
-        run: cd client && yarn install --frozen-lockfile
+        run: yarn install --frozen-lockfile
 
       - name: 🏗️ Build Application
         run: yarn build

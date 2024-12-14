@@ -21,9 +21,6 @@ jobs:
   build:
     name: Build application with Node.js
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./client
 
     steps:
       - name: 🛎️ Checkout Repository
@@ -56,7 +53,7 @@ jobs:
       - name: ☁️ Upload Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./client/build
+          path: ./build
 
   deploy:
     name: Deploy application to GitHub Pages
