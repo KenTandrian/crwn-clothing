@@ -1,5 +1,5 @@
 import React from "react";
-import { shallow } from 'enzyme';
+import { render } from "@testing-library/react";
 import { CollectionItem } from "./collection-item.component";
 
 describe('collection-item', () => {
@@ -13,7 +13,7 @@ describe('collection-item', () => {
         item: mockItem, 
         addItem
     }
-    const wrapper = shallow(<CollectionItem {...mockProps} />);
+    const wrapper = render(<CollectionItem {...mockProps} />);
 
     it('should render CollectionItem component', () => {
         expect(wrapper).toMatchSnapshot();

@@ -1,5 +1,5 @@
 import React from "react";
-import { shallow } from 'enzyme';
+import { render } from "@testing-library/react";
 import CartItem from "./cart-item.component";
 
 describe('cart-item', () => {
@@ -9,7 +9,7 @@ describe('cart-item', () => {
         name: 'jackets', 
         quantity: 2
     };
-    const wrapper = shallow(<CartItem item={mockItem} />);
+    const wrapper = render(<CartItem item={mockItem} />);
 
     it('should render CartItem component', () => {
         expect(wrapper).toMatchSnapshot();

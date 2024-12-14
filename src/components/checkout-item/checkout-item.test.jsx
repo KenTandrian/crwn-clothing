@@ -1,5 +1,5 @@
 import React from "react";
-import { shallow } from 'enzyme';
+import { render } from "@testing-library/react";
 import { CheckoutItem } from "./checkout-item.component";
 
 describe('checkout-item', () => {
@@ -18,7 +18,7 @@ describe('checkout-item', () => {
         addItem,  
         removeItem
     }
-    const wrapper = shallow(<CheckoutItem {...mockProps} />);
+    const wrapper = render(<CheckoutItem {...mockProps} />);
 
     it('should render CheckoutItem component', () => {
         expect(wrapper).toMatchSnapshot();

@@ -1,5 +1,5 @@
 import React from "react";
-import { shallow } from 'enzyme';
+import { render } from "@testing-library/react";
 
 // Import CartDropdown component without CONNECT (not the default)
 import { CartDropdown } from "./cart-dropdown.component";
@@ -45,7 +45,7 @@ describe('cart-dropdown', () => {
             }),
         }));
 
-        wrapper = shallow(<CartDropdown />);
+        wrapper = render(<CartDropdown />);
     });
     
     it('should render cart-dropdown', () => {
@@ -60,7 +60,7 @@ describe('cart-dropdown', () => {
         useSelectorMock.mockClear()
         useSelectorMock.mockReturnValue([]);
 
-        const newWrapper = shallow(<CartDropdown />);
+        const newWrapper = render(<CartDropdown />);
         expect(newWrapper.exists('EmptyMessageContainer')).toBe(true);
     });
 });

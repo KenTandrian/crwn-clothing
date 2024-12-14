@@ -1,5 +1,5 @@
 import React from "react";
-import { shallow } from "enzyme";
+import { render } from "@testing-library/react";
 
 // Import the Directory component without CONNECT (not default)
 import { Directory } from './directory.component';
@@ -20,7 +20,7 @@ describe('Directory Component', () => {
                 { id: 2, title: 'jackets' }
             ]
         }
-        wrapper = shallow(<Directory {...mockProps} />);
+        wrapper = render(<Directory {...mockProps} />);
     });
 
     it('should render Directory component', () => {

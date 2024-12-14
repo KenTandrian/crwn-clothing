@@ -1,5 +1,5 @@
 import React from "react";
-import { shallow } from 'enzyme';
+import { render } from "@testing-library/react";
 import { CartIcon } from "./cart-icon.component";
 
 describe('cart-icon', () => {
@@ -12,7 +12,7 @@ describe('cart-icon', () => {
             toggleCartHidden: mockToggleCartHidden, 
             itemCount: mockItemCount
         }
-        wrapper = shallow(<CartIcon { ...mockProps } />);
+        wrapper = render(<CartIcon { ...mockProps } />);
     });
 
     it ('should render CartIcon correctly', () => {
