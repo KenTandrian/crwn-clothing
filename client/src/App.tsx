@@ -1,5 +1,5 @@
 import React, { useEffect, lazy, Suspense } from "react";
-import { Route, Routes, Navigate } from "react-router-dom";
+import { Route, Routes, Navigate } from "react-router";
 import { useSelector, useDispatch } from "react-redux";
 
 import Header from "./components/header/header.component";

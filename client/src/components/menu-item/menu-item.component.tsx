@@ -7,7 +7,7 @@ import {
   Title,
   Subtitle,
 } from "./menu-item.styles";
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router";
 
 interface Props {
   title: string;

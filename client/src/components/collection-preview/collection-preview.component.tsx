@@ -6,7 +6,7 @@ import {
   TitleCont,
   PreviewCont,
 } from "./collection-preview.styles";
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router";
 
 type Props = Pick<Collection, "title" | "items" | "routeName">;
 

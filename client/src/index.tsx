@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter } from "react-router";
 import { Provider } from "react-redux";
 import { PersistGate } from "redux-persist/integration/react";
 
@@ -12,7 +12,6 @@ import App from "./App";
 // import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from "./reportWebVitals";
 
-// New React 18 syntax, but not compatible with react-router-dom routing
 const root = ReactDOM.createRoot(document.getElementById("root")!);
 
 // Hence, the old syntax will be used.

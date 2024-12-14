@@ -40,7 +40,7 @@ You can do these commands in Git Bash:\
 [![node-sass](https://img.shields.io/github/package-json/dependency-version/KenTandrian/crwn-clothing/node-sass)](https://www.npmjs.com/package/node-sass)
 [![react](https://img.shields.io/github/package-json/dependency-version/KenTandrian/crwn-clothing/react)](https://www.npmjs.com/package/react)
 [![react-redux](https://img.shields.io/github/package-json/dependency-version/KenTandrian/crwn-clothing/react-redux)](https://www.npmjs.com/package/react-redux)
-[![react-router-dom](https://img.shields.io/github/package-json/dependency-version/KenTandrian/crwn-clothing/react-router-dom)](https://www.npmjs.com/package/react-router-dom)
+[![react-router](https://img.shields.io/github/package-json/dependency-version/KenTandrian/crwn-clothing/react-router)](https://www.npmjs.com/package/react-router)
 [![react-stripe-checkout](https://img.shields.io/github/package-json/dependency-version/KenTandrian/crwn-clothing/react-stripe-checkout)](https://www.npmjs.com/package/react-stripe-checkout)
 [![redux](https://img.shields.io/github/package-json/dependency-version/KenTandrian/crwn-clothing/redux)](https://www.npmjs.com/package/redux)
 [![redux-logger](https://img.shields.io/github/package-json/dependency-version/KenTandrian/crwn-clothing/redux-logger)](https://www.npmjs.com/package/redux-logger)

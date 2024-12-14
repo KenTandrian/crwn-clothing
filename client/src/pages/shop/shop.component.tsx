@@ -1,5 +1,5 @@
 import React, { Suspense, useEffect, lazy } from "react";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router";
 import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
 

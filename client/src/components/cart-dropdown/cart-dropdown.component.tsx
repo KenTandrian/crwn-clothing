@@ -1,7 +1,7 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 // import { createStructuredSelector } from "reselect"; // this is actually optional, only for scalability
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router";
 
 import CartItem from "../cart-item/cart-item.component";
 import { selectCartItems } from "../../redux/cart/cart.selectors";

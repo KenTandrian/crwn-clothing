@@ -7,7 +7,7 @@ import CartItem from "../cart-item/cart-item.component";
 
 // Mocking useSelector and useDispatch
 import * as reactRedux from 'react-redux'
-import * as reactRouter from 'react-router-dom';
+import * as reactRouter from 'react-router';
 import toggleCartHidden from '../../redux/cart/cart.actions';
 
 /*
@@ -38,8 +38,8 @@ describe('cart-dropdown', () => {
         useDispatchMock.mockReturnValue(mockDispatch);
 
         // Mocking useNavigate
-        jest.mock('react-router-dom', () => ({
-            ...jest.requireActual('react-router-dom'),
+        jest.mock('react-router', () => ({
+            ...jest.requireActual('react-router'),
             useNavigate: () => ({
                 push: mockHistory.push,
             }),
