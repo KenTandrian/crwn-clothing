@@ -35,24 +35,13 @@ You can do these commands in Git Bash:\
 
 ## Dependencies
 
-<!-- [![firebase](https://img.shields.io/github/package-json/dependency-version/KenTandrian/crwn-clothing/firebase)](https://www.npmjs.com/package/firebase)
-[![node-sass](https://img.shields.io/github/package-json/dependency-version/KenTandrian/crwn-clothing/node-sass)](https://www.npmjs.com/package/node-sass)
-[![react](https://img.shields.io/github/package-json/dependency-version/KenTandrian/crwn-clothing/react)](https://www.npmjs.com/package/react)
-[![react-redux](https://img.shields.io/github/package-json/dependency-version/KenTandrian/crwn-clothing/react-redux)](https://www.npmjs.com/package/react-redux)
-[![react-router](https://img.shields.io/github/package-json/dependency-version/KenTandrian/crwn-clothing/react-router)](https://www.npmjs.com/package/react-router)
-[![react-stripe-checkout](https://img.shields.io/github/package-json/dependency-version/KenTandrian/crwn-clothing/react-stripe-checkout)](https://www.npmjs.com/package/react-stripe-checkout)
-[![redux](https://img.shields.io/github/package-json/dependency-version/KenTandrian/crwn-clothing/redux)](https://www.npmjs.com/package/redux)
-[![redux-logger](https://img.shields.io/github/package-json/dependency-version/KenTandrian/crwn-clothing/redux-logger)](https://www.npmjs.com/package/redux-logger)
-[![redux-persist](https://img.shields.io/github/package-json/dependency-version/KenTandrian/crwn-clothing/redux-persist)](https://www.npmjs.com/package/redux-persist)
-[![reselect](https://img.shields.io/github/package-json/dependency-version/KenTandrian/crwn-clothing/reselect)](https://www.npmjs.com/package/reselect) -->
-
 [![react](https://img.shields.io/github/package-json/dependency-version/KenTandrian/crwn-clothing/react)](https://www.npmjs.com/package/react)
 [![react-router](https://img.shields.io/github/package-json/dependency-version/KenTandrian/crwn-clothing/react-router)](https://www.npmjs.com/package/react-router)
 [![vite](https://img.shields.io/github/package-json/dependency-version/KenTandrian/crwn-clothing/dev/vite)](https://www.npmjs.com/package/vite)
 
 [Go to List of Dependencies](https://github.com/KenTandrian/crwn-clothing/network/dependencies)
 
-## Screenshot
+## Screenshots
 
 ![image](https://user-images.githubusercontent.com/60643640/153547421-4b9e964e-86e3-49db-9e35-4b51077c8cb5.png)
 
