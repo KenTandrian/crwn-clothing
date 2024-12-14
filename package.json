@@ -55,7 +55,6 @@
     "@types/react-dom": "19.0.2",
     "@types/redux-logger": "3.0.13",
     "@vitejs/plugin-react": "4.3.4",
-    "enzyme-to-json": "3.6.2",
     "redux-mock-store": "1.5.5",
     "rollup": "4.28.1",
     "sass": "1.83.0",
@@ -68,9 +67,6 @@
     "testMatch": [
       "**/src/**/*.test.{js,jsx,ts,tsx}",
       "**/src/**/?(*.)(spec|test).{js,jsx,ts,tsx}"
-    ],
-    "snapshotSerializers": [
-      "enzyme-to-json/serializer"
     ]
   }
 }
