@@ -58,7 +58,7 @@
     "enzyme-to-json": "3.6.2",
     "redux-mock-store": "1.5.5",
     "rollup": "4.28.1",
-    "sass": "1.81.0",
+    "sass": "1.83.0",
     "typescript": "5.7.2",
     "vite": "6.0.3",
     "vite-plugin-pwa": "0.21.1",
