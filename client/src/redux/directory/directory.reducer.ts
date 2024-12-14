@@ -2,35 +2,35 @@ const INITIAL_STATE: DirectoryReducer = {
     sections: [
         {
             title: 'hats',
-            imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
+            imageUrl: '/crwn-clothing/images/hats.png',
             size: '',
             id: 1,
             linkUrl: 'shop/hats'
         },
         {
             title: 'jackets',
-            imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
+            imageUrl: '/crwn-clothing/images/jackets.png',
             size: '',
             id: 2,
             linkUrl: 'shop/jackets'
         },
         {
             title: 'sneakers',
-            imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
+            imageUrl: '/crwn-clothing/images/sneakers.png',
             size: '',
             id: 3,
             linkUrl: 'shop/sneakers'
         },
         {
             title: 'womens',
-            imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
+            imageUrl: '/crwn-clothing/images/womens.png',
             size: 'large',
             id: 4,
             linkUrl: 'shop/womens'
         },
         {
             title: 'mens',
-            imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
+            imageUrl: '/crwn-clothing/images/men.png',
             size: 'large',
             id: 5,
             linkUrl: 'shop/mens'
