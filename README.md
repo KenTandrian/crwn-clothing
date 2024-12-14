@@ -5,6 +5,7 @@
 [![top-language](https://img.shields.io/github/languages/top/KenTandrian/crwn-clothing)](https://github.com/KenTandrian/crwn-clothing/search?l=javascript)
 [![commit](https://img.shields.io/github/commit-activity/m/KenTandrian/crwn-clothing)](https://github.com/KenTandrian/crwn-clothing/commits/main)
 [![last-commit](https://img.shields.io/github/last-commit/KenTandrian/crwn-clothing)](https://github.com/KenTandrian/crwn-clothing/commits/main)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2a444cde-c906-43a7-bc52-21f962a48d80/deploy-status)](https://app.netlify.com/sites/the-crwn/deploys)
 
 ## Introduction
 
