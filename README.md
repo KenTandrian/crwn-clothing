@@ -9,7 +9,7 @@
 ## Introduction
 
 CRWN Clothing is a clothing and apparel e-commerce made with React JS, Stripe integration, and Node-sass.
-This project is made as a capstone project for Zero to Mastery Academy: React Developer 2022, and was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is made as a capstone project for Zero to Mastery Academy: React Developer 2022, and was initially bootstrapped with [Create React App](https://github.com/facebook/create-react-app) before changing to Vite.
 
 Open in HerokuApp: https://crwn-clothing-ktan.herokuapp.com/
 
@@ -18,8 +18,7 @@ Open in HerokuApp: https://crwn-clothing-ktan.herokuapp.com/
 You can do these commands in Git Bash:\
 `npm start` > Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.\
 `npm test`\
-`npm run build`\
-`npm run eject`
+`npm run build`
 
 ## Technologies
 
@@ -47,9 +46,9 @@ You can do these commands in Git Bash:\
 [![redux-persist](https://img.shields.io/github/package-json/dependency-version/KenTandrian/crwn-clothing/redux-persist)](https://www.npmjs.com/package/redux-persist)
 [![reselect](https://img.shields.io/github/package-json/dependency-version/KenTandrian/crwn-clothing/reselect)](https://www.npmjs.com/package/reselect) -->
 
-[![express](https://img.shields.io/github/package-json/dependency-version/KenTandrian/crwn-clothing/express)](https://www.npmjs.com/package/express)
-[![nodemon](https://img.shields.io/github/package-json/dependency-version/KenTandrian/crwn-clothing/dev/nodemon)](https://www.npmjs.com/package/nodemon)
-[![stripe](https://img.shields.io/github/package-json/dependency-version/KenTandrian/crwn-clothing/stripe)](https://www.npmjs.com/package/stripe)
+[![react](https://img.shields.io/github/package-json/dependency-version/KenTandrian/crwn-clothing/react)](https://www.npmjs.com/package/react)
+[![react-router](https://img.shields.io/github/package-json/dependency-version/KenTandrian/crwn-clothing/react-router)](https://www.npmjs.com/package/react-router)
+[![vite](https://img.shields.io/github/package-json/dependency-version/KenTandrian/crwn-clothing/dev/vite)](https://www.npmjs.com/package/vite)
 
 [Go to List of Dependencies](https://github.com/KenTandrian/crwn-clothing/network/dependencies)
 
