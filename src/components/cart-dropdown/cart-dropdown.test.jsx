@@ -1,5 +1,6 @@
 import React from "react";
 import { render } from "@testing-library/react";
+import { beforeEach, describe, expect, it, vi } from "vitest";
 
 // Import CartDropdown component without CONNECT (not the default)
 import { CartDropdown } from "./cart-dropdown.component";
@@ -25,7 +26,7 @@ describe('cart-dropdown', () => {
         { id: 2, name: 'shoes' }, 
         { id: 3, name: 'chinos' }
     ];
-    const mockDispatch = jest.fn();
+    const mockDispatch = vi.fn();
     const useSelectorMock = jest.spyOn(reactRedux, 'useSelector');
     const useDispatchMock = jest.spyOn(reactRedux, 'useDispatch');
 

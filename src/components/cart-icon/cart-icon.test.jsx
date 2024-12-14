@@ -1,5 +1,6 @@
 import React from "react";
 import { render } from "@testing-library/react";
+import { describe, expect, it } from "vitest";
 import { CartIcon } from "./cart-icon.component";
 
 describe('cart-icon', () => {
@@ -15,7 +16,7 @@ describe('cart-icon', () => {
         wrapper = render(<CartIcon { ...mockProps } />);
     });
 
-    it ('should render CartIcon correctly', () => {
+    it('should render CartIcon correctly', () => {
         expect(wrapper).toMatchSnapshot();
     });
 

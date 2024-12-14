@@ -1,5 +1,6 @@
 import React from "react";
 import { render } from "@testing-library/react";
+import { describe, expect, it, vi } from "vitest";
 import { CheckoutItem } from "./checkout-item.component";
 
 describe('checkout-item', () => {
@@ -9,9 +10,9 @@ describe('checkout-item', () => {
         quantity: 2, 
         imageUrl: 'https://www.testImage.com'
     };
-    const clearItem = jest.fn();
-    const addItem = jest.fn(); 
-    const removeItem = jest.fn();
+    const clearItem = vi.fn();
+    const addItem = vi.fn(); 
+    const removeItem = vi.fn();
     const mockProps = {
         cartItem: mockItem, 
         clearItem, 

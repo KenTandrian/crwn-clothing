@@ -1,5 +1,6 @@
 import React from "react";
 import { render } from "@testing-library/react";
+import { beforeEach, describe, expect, it } from "vitest";
 
 // Import the Directory component without CONNECT (not default)
 import { Directory } from './directory.component';
