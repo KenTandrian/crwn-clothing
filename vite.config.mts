@@ -15,7 +15,7 @@ export default defineConfig({
     react(), 
     svgr(), 
   ],
-  base: process.env.NODE_ENV === "production" ? "/crwn-clothing" : "/",
+  base: "/",
   build: {
     outDir: 'build',
   },

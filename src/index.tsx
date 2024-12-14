@@ -20,7 +20,7 @@ root.render(
     <React.StrictMode>
       <BrowserRouter
         {...(import.meta.env.PROD && {
-          basename: "/crwn-clothing",
+          basename: "/",
         })}
       >
         <PersistGate persistor={persistor}>
