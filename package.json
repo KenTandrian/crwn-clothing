@@ -55,7 +55,6 @@
     "@types/react-dom": "19.0.2",
     "@types/redux-logger": "3.0.13",
     "@vitejs/plugin-react": "4.3.4",
-    "@zarconontol/enzyme-adapter-react-18": "0.7.3",
     "enzyme": "3.11.0",
     "enzyme-to-json": "3.6.2",
     "redux-mock-store": "1.5.5",
