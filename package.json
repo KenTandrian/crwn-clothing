@@ -57,7 +57,7 @@
     "@vitejs/plugin-react": "4.3.4",
     "jsdom": "25.0.1",
     "redux-mock-store": "1.5.5",
-    "rollup": "4.28.1",
+    "rollup": "4.29.1",
     "sass": "1.83.0",
     "typescript": "5.7.2",
     "vite": "6.0.3",
