@@ -1,7 +1,7 @@
 {
   "name": "crwn-clothing",
   "homepage": "https://kentandrian.github.io/crwn-clothing",
-  "version": "1.0.60",
+  "version": "1.0.90",
   "packageManager": "yarn@1.22.22",
   "private": true,
   "proxy": "http://localhost:5000",
