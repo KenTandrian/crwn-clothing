@@ -55,7 +55,7 @@
     "@types/react-dom": "19.0.2",
     "@types/redux-logger": "3.0.13",
     "@vitejs/plugin-react": "4.3.4",
-    "jsdom": "25.0.1",
+    "jsdom": "26.0.0",
     "redux-mock-store": "1.5.5",
     "rollup": "4.37.0",
     "sass": "1.83.0",
